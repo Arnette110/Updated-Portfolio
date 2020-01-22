@@ -1,15 +1,9 @@
 #heroTitle {
-    color: #FFA500;
+    
 }
 
 #about {
-    background-color: #FFA500;
-    opacity: ;
-}
-
-#aboutContainer {
-    background-color: #B2B3B4;
-    color: white;
+    background-color: #F1F2F3;
 }
 
 #portfolio {
@@ -19,3 +13,4 @@
 #contact {
     background-color: #F1F2F3;
 }
+
