@@ -1,16 +1,73 @@
+#navbarMenu {
+    background-color: #122B3F;
+}
+#navBurger {
+    background-color: #122B3F;
+    color: #F8FAFC;
+}
+.navbar-burger {
+    background-color: #122B3F;
+    color: #F8FAFC;
+}
+.navbar-item {
+    color: #F8FAFC;
+}
+#heroBody {
+    background-color: #122B3F;
+}
+
 #heroTitle {
-    
+    color: #F8FAFC;
+}
+
+#heroSub {
+    color: #F8FAFC;
 }
 
 #about {
-    background-color: #F1F2F3;
+    background-image: url(../images/green-pine-trees-covered-with-fogs-under-white-sky-during-167699.jpg);
+    background-size: cover;
+    background-position: relative;
 }
 
 #portfolio {
-    background-color: #8f8b86;
-    
+    background-color: #122B3F; ;   
 }
-#contact {
-    background-color: #F1F2F3;
+#portfolioTitle {
+    color: #F8FAFC;
+}
+#portfolioSub {
+    color: #F8FAFC;
 }
 
+#contact {
+    background-color: #8EABBB;
+    color: #122B3F;
+}
+#contactTitle {
+    color: #122B3F;
+}
+#contactSub {
+    color: #122B3F;
+}
+#phone {
+    color: #122B3F;
+}
+#email {
+    color: #122B3F;
+}
+#web {
+    color: #122B3F;
+}
+
+#github {
+    color: #122B3F;
+}
+
+#linkedin {
+    color: #122B3F;
+}
+
+#footerContent {
+    color: #122B3F;
+}
