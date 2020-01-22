@@ -31,7 +31,7 @@
 
         <section class="hero is-dark">
             <div class="hero-body" id="heroBody">
-                <div class="container is-fluid">
+                <div class="container">
                     <h1 class="title is-1" id="heroTitle">
                         Christopher Ellis
                     </h1>
@@ -45,45 +45,62 @@
             <div class="container">
                 <div class="section-heading has-text-centered">
                     <h2 class="title is-2">About</h2>
-                    
                     <br>
                 </div>
-                <div class="tile is-ancestor box" id="aboutContainer">
+                <div class="tile is-ancestor" id="aboutContainer">
                     <div class="tile">
+
                         <div class="tile is-parent">
                             <div class="tile is-child is-4">
-                                <figure class="image is-square">
-                                    <img src="/assets/images/me.jpg" alt="picture of christopher ellis">
+                                <figure class="image">
+                                    <img src="/assets/images/ChrisEllis.jpg" alt="picture of christopher ellis">
                                 </figure>
                             </div>
-                            <div class="tile is-parent">
-                                <div class="tile is-child is">
-                                    <article>
-                                        <p>
-                                            I am currently studying Web
-                                            Development! I have a Bachelor of Arts degree in International
-                                            Studies with minors in Business and German.
-                                        </p>
-                                        <p>
-                                        </p>
-                                    </article>
+                            <div class="tile">
+                                <div class="tile is-parent">
+                                    <div class="tile is-child">
+                                        <article>
+                                            <p>
+                                                Full Stack Web Developer with a background in Customer Service with
+                                                experience in database management and business operations. Reliable and
+                                                successful in setting priorities and meeting deadlines. Detail oriented,
+                                                with devotion to accuracy and efficiency.
+                                            </p>
+                                        </article>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="tile is-parent has-text-centered">
-                            <div class="tile is-child">
-                                <h3 class="title is-4">Skills</h3>
+
+                        <div class="tile is-parent">
+
+                            <div class="tile is-child has-text-centered">
+                                <h2 class="title is-4">Frontend</h2>
                                 <ul class="content">
                                     <li>HTML5/CSS3</li>
                                     <li>JavaScript</li>
                                     <li>jQuery</li>
-                                    <li>AJAX</li>
+                                    <li>React.js</li>
+                                </ul>
+                            </div>
+                            <div class="tile is-child has-text-centered">
+                                <h2 class="title is-4">Backend</h2>
+                                <ul class="content">
                                     <li>Node.js</li>
+                                    <li>Express.js</li>
+                                    <li>MongoDB</li>
+                                    <li>MySQL</li>
                                 </ul>
                             </div>
                         </div>
                     </div>
                 </div>
+                <a class="button is-medium is-link is-outlined " href="https://github.com/Arnette110" target="_blank">
+                        <span class="icon">
+                            <i class="far fa-2x fa-file-pdf"></i>
+                        </span>
+                        <span>My Resume'</span>
+                    </a>
             </div>
         </section>
         <section class="section" id="portfolio">
@@ -146,8 +163,7 @@
                             </header>
                             <div class="card-content">
                                 <figure class="image is-16by9">
-                                    <img src="./assets/images/day-planner-screenshot.png"
-                                        alt="day planner screenshot">
+                                    <img src="./assets/images/day-planner-screenshot.png" alt="day planner screenshot">
                                 </figure>
                             </div>
                             <footer class="card-footer">
@@ -159,78 +175,46 @@
                             </footer>
                         </div>
                     </div>
+
                 </div>
             </div>
         </section>
 
         <section class="section" id="contact">
             <div class="container">
-                <div class="section-heading has-text-centered">
+                <div class="section-heading">
                     <h3 class="title is-2">Contact</h3>
-                    <h4 class="subtitle is-5">Get in touch</h4>
+                    <h4 class="subtitle is-5">Let's Connect</h4>
                 </div>
                 <br>
-
-                <div class="columns">
-                    <div class="column is-6 is-offset-3">
-                        <div class="box">
-                            <div class="field">
-                                <label class="label">Name</label>
-                                <div class="control">
-                                    <input class="input" type="text" placeholder="Name">
-                                </div>
-                            </div>
-
-                            <div class="field">
-                                <label class="label">Email</label>
-                                <div class="control has-icons-left">
-                                    <input class="input" type="email" placeholder="Email input" value="">
-                                    <span class="icon is-small is-left">
-                                        <i class="fas fa-envelope"></i>
-                                    </span>
-                                </div>
-                            </div>
-
-                            <div class="field">
-                                <label class="label">Message</label>
-                                <div class="control">
-                                    <textarea class="textarea" placeholder="Message"></textarea>
-                                </div>
-                            </div>
-
-                            <div class="field is-grouped has-text-centered">
-                                <div class="control">
-                                    <button class="button is-link is-large" id="contactBtn"><span class="icon">
-                                            <i class="fas fa-envelope"></i>
-                                        </span>
-                                        <span>Submit</span></button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <nav class="is-fullwidth">
-                    <div class="container has-text-centered">
-                        <a href="https://github.com/Arnette110"><button class="button is-medium is-link">
+                <div class="buttons are-medium">
+                    <a class="button is-link is-outlined" href="mailto:christopher.ryan.ellis@gmail.com" target="_blank">
+                            <span class="icon">
+                                <i class="fas fa-envelope    "></i>
+                            </span>
+                            <span>Email</span>
+                        </a>
+                    <a class="button is-link is-outlined" href="https://github.com/Arnette110" target="_blank">
                             <span class="icon">
                                 <i class="fab fa-github"></i>
                             </span>
                             <span>GitHub</span>
-                        </button></a>
-                        <a href="https://www.linkedin.com/in/christopher-ellis-b018a67/"><button
-                                class="button is-medium is-link">
+                        </a>
+                    <a class="button is-link is-outlined" href="https://www.linkedin.com/in/christopher-ellis-b018a67/"
+                        target="_blank">
                             <span class="icon">
                                 <i class="fab fa-linkedin"></i>
                             </span>
                             <span> Linked-In</span>
-                        </button></a>
-                    </div>
-                </nav>
+                        </a>
+                </div>
+
             </div>
         </section>
-        
 
-        
+
+
+
         <footer class="footer">
             <div class="container has-text-centered">
                 <p>Christopher Ellis</p><i class="fa fa-copyright    "> 2020</i>
