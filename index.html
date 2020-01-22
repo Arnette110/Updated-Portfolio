@@ -12,7 +12,8 @@
     </head>
 
     <body>
-        <nav class="navbar is-dark is-fixed-top level">
+        <!-- navbar start -->
+        <nav class="navbar is-fixed-top level" id="navBurger">
             <div class="navbar-brand">
                 <div class="navbar-burger burger" data-target="navbarMenu">
                     <span></span>
@@ -29,8 +30,10 @@
                 </div>
             </div>
         </nav>
+        <!-- navbar end -->
 
-        <section class="hero is-dark">
+        <!-- page title start -->
+        <section class="hero is-medium">
             <div class="hero-body" id="heroBody">
                 <div class="container">
                     <h1 class="title is-1" id="heroTitle">
@@ -42,75 +45,92 @@
                 </div>
             </div>
         </section>
+        <!-- page title end -->
+
+        <!-- about section start -->
         <section class="section" id="about">
             <div class="container">
                 <div class="section-heading has-text-centered">
-                    <h2 class="title is-2">About</h2>
+                    <h2 class="title is-2" id="aboutHead">About</h2>
                     <br>
                 </div>
-                <div class="tile is-ancestor" id="aboutContainer">
-                    <div class="tile">
 
-                        <div class="tile is-parent">
-                            <div class="tile is-child is-4">
-                                <figure class="image">
-                                    <img src="/assets/images/ChrisEllis.jpg" alt="picture of christopher ellis">
-                                </figure>
-                            </div>
-                            <div class="tile">
-                                <div class="tile is-parent">
-                                    <div class="tile is-child">
-                                        <article>
-                                            <p>
-                                                Full Stack Web Developer with a background in Customer Service with
-                                                experience in database management and business operations. Reliable and
-                                                successful in setting priorities and meeting deadlines. Detail oriented,
-                                                with devotion to accuracy and efficiency.
-                                            </p>
-                                        </article>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="tile is-parent">
-
-                            <div class="tile is-child has-text-centered">
-                                <h2 class="title is-4">Frontend</h2>
-                                <ul class="content">
-                                    <li>HTML5/CSS3</li>
-                                    <li>JavaScript</li>
-                                    <li>jQuery</li>
-                                    <!-- <li>React.js</li> -->
-                                </ul>
-                            </div>
-                            <div class="tile is-child has-text-centered">
-                                <h2 class="title is-4">Backend</h2>
-                                <ul class="content">
-                                    <li>Node.js</li>
-                                    <!-- <li>Express.js</li>
-                                    <li>MongoDB</li>
-                                    <li>MySQL</li> -->
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <a class="button is-medium is-link is-outlined " href="/assets/resume/christopher-ellis-resume.pdf" target="_blank">
-                        <span class="icon">
-                            <i class="far fa-2x fa-file-pdf"></i>
-                        </span>
-                        <span>My Resume'</span>
-                    </a>
             </div>
+            <div class="columns" id="aboutContainer">
+
+                <!-- profile image -->
+                <div class="column is-one-fifth">
+                    <figure class="image">
+                        <img src="./assets/images/ChrisEllis.jpg" alt="picture of christopher ellis">
+                    </figure>
+                </div>
+
+                <!-- about me content -->
+                <div class="column">
+                    <div class="content is-medium">
+                        <article id="aboutContent">
+                            <p>
+                                I am currently studying Full Stack Web Development at the University of Utah's coding
+                                boot camp.
+                            </p>
+                            <p>
+                                I am proficient in <strong> HTML, CSS (Bootstrap and Bulma), JavaScript/jQuery</strong>.
+                                I have completed multiple projects that incorporated <strong>jQuery.ajax()</strong> and
+                                I have just started learning <strong>Node.js</strong>. Soon I will have experience
+                                with<strong>React, Express, MongoDB and SQL/MySQL!</strong>
+                            </p>
+                        </article>
+                    </div>
+
+                </div>
+            </div>
+            <!-- potential future styling -->
+            <!-- <div class="tile is-parent">
+                <div class="tile is-child has-text-centered">
+                    <h2 class="title is-4">Frontend</h2>
+                    <ul class="content">
+                        <li>HTML5/CSS3</li>
+                        <li>JavaScript</li>
+                        <li>jQuery</li>
+                        <li>React.js</li>
+                    </ul>
+                </div>
+                <div class="tile is-child has-text-centered">
+                    <h2 class="title is-4">Backend</h2>
+                    <ul class="content">
+                        <li>Node.js</li>
+                        <li>Express.js</li>
+                        <li>MongoDB</li>
+                        <li>MySQL</li>
+                    </ul>
+                </div>
+            </div> -->
+            <!-- potential future styling -->
+
+            <!-- resume' button -->
+            <a class="button is-medium is-link is-outlined " id="resume"
+                href="assets/resume/christopher-ellis-resume.pdf" target="_blank">
+                <span class="icon">
+                    <i class="far fa-2x fa-file-pdf"></i>
+                </span>
+                <span>My Resume'</span>
+            </a>
+
         </section>
+        <!-- about section end -->
+
+        <!-- portfolio section start -->
         <section class="section" id="portfolio">
             <div class="container">
-                <div class="heading" id="porfolioContainer">
-                    <h2 class="title is-2 has-text-white">portfolio</h2>
-                    <h4 class="subtitle is-5 has-text-white">my latest works</h4>
+                <!-- portfolio heading start -->
+                <div class="heading" id="portfolioContainer">
+                    <h2 class="title is-2" id="portfolioTitle">portfolio</h2>
+                    <h4 class="subtitle is-5" id="portfolioSub">my latest works</h4>
                     <br>
                 </div>
+                <!-- portfolio heading end -->
+
+                <!-- portfolio content start -->
                 <div class="columns">
                     <div class="column is-4">
                         <div class="card">
@@ -126,9 +146,9 @@
                                 </figure>
                             </div>
                             <footer class="card-footer">
-                                <a href="https://arnette110.github.io/Scrabble-Party-App/"
+                                <a href="https://arnette110.github.io/Scrabble-Party-App/" target="_blank"
                                     class="card-footer-item">Deployed</a>
-                                <a href="https://github.com/Arnette110/Scrabble-Party-App"
+                                <a href="https://github.com/Arnette110/Scrabble-Party-App" target="_blank"
                                     class="card-footer-item">Source
                                     Code</a>
                             </footer>
@@ -148,9 +168,10 @@
                                 </figure>
                             </div>
                             <footer class="card-footer">
-                                <a href="https://arnette110.github.io/Wild-Weather-App/"
+                                <a href="https://arnette110.github.io/Wild-Weather-App/" target="_blank"
                                     class="card-footer-item">Deployed</a>
-                                <a href="https://github.com/Arnette110/Wild-Weather-App" class="card-footer-item">Source
+                                <a href="https://github.com/Arnette110/Wild-Weather-App" target="_blank"
+                                    class="card-footer-item">Source
                                     Code</a>
                             </footer>
                         </div>
@@ -168,59 +189,71 @@
                                 </figure>
                             </div>
                             <footer class="card-footer">
-                                <a href="https://arnette110.github.io/Wonderful-Workday-Planner/"
+                                <a href="https://arnette110.github.io/Wonderful-Workday-Planner/" target="_blank"
                                     class="card-footer-item">Deployed</a>
-                                <a href="https://github.com/Arnette110/Wonderful-Workday-Planner"
+                                <a href="https://github.com/Arnette110/Wonderful-Workday-Planner" target="_blank"
                                     class="card-footer-item">Source
                                     Code</a>
                             </footer>
                         </div>
                     </div>
-
                 </div>
+                <!-- portfolio content end -->
             </div>
         </section>
+        <!-- portfolio section end -->
 
-        <section class="section" id="contact">
+        <!-- contact section start -->
+        <section class="section has-text-centered" id="contact">
             <div class="container">
+                <!-- contact heading start -->
                 <div class="section-heading">
-                    <h3 class="title is-2">Contact</h3>
-                    <h4 class="subtitle is-5">Let's Connect</h4>
+                    <h3 class="title is-2" id="contactTitle">Contact</h3>
+                    <h4 class="subtitle is-5" id="contactSub">Let's Connect</h4>
                 </div>
+                <!-- contact heading end -->
                 <br>
-                <div class="buttons are-medium">
-                    <a class="button is-link is-outlined" href="mailto:christopher.ryan.ellis@gmail.com" target="_blank">
-                            <span class="icon">
-                                <i class="fas fa-envelope    "></i>
-                            </span>
-                            <span>Email</span>
-                        </a>
-                    <a class="button is-link is-outlined" href="https://github.com/Arnette110" target="_blank">
+                <!-- contact content start -->
+                <div class="columns is-vcentered is-centered">
+                    <div class="column is-3">
+                        <h3 class="subtitle" id="phone"><i class="fa fa-mobile    "></i> Phone</h3>
+                        <p>385.421.0733</p>
+                        <hr>
+                        <h3 class="subtitle" id="email"><i class="fas fa-envelope    "></i> Email</h3>
+                        <p>christopher.ryan.ellis@gmail.com</p>
+                        <hr>
+                        <h3 class="subtitle" id="web"><i class="fas fa-globe    "></i> On the Web</h3>
+                        <a id="github" href="https://github.com/Arnette110" target="_blank">
                             <span class="icon">
                                 <i class="fab fa-github"></i>
                             </span>
                             <span>GitHub</span>
                         </a>
-                    <a class="button is-link is-outlined" href="https://www.linkedin.com/in/christopher-ellis-b018a67/"
-                        target="_blank">
+                        <span>|</span>
+                        <a id="linkedin" href="https://www.linkedin.com/in/christopher-ellis-b018a67/" target="_blank">
                             <span class="icon">
                                 <i class="fab fa-linkedin"></i>
                             </span>
                             <span> Linked-In</span>
                         </a>
+                        <hr>
+                    </div>
                 </div>
-
+                <!-- contact buttons end -->
             </div>
         </section>
+        <!-- contact section end -->
 
 
-
-
+        <!-- footer start -->
         <footer class="footer">
-            <div class="container has-text-centered">
+            <div class="container has-text-centered" id="footerContent">
                 <p>Christopher Ellis</p><i class="fa fa-copyright    "> 2020</i>
             </div>
         </footer>
+        <!-- footer end -->
+
+
         <script src="/assets/js/script.js"></script>
     </body>
 
