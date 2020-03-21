@@ -14,9 +14,8 @@ https://arnette110.github.io/Updated-Portfolio/
 - The "Contact" section contains my phone number, email address as well as links to my GitHub and Linked-In profiles.
 
 ## Screenshots
-![home-Christopher-Ellis-Portfolio](https://user-images.githubusercontent.com/54122844/72943268-e0f47e00-3d32-11ea-957f-14686d7ab99b.png)
-![about-Christopher-Ellis-Portfolio](https://user-images.githubusercontent.com/54122844/72943273-e5209b80-3d32-11ea-9fb0-4a40e21ef8ff.png)
-![portfolio-Christopher-Ellis-Portfolio](https://user-images.githubusercontent.com/54122844/72943279-ece04000-3d32-11ea-9ed8-be2887cf547a.png)
+![about-Christopher-Ellis-Portfolio](https://user-images.githubusercontent.com/54122844/77235053-508eba00-6b78-11ea-82ae-c75ac4a2a476.png)
+![portfolio-Christopher-Ellis-Portfolio](https://user-images.githubusercontent.com/54122844/77235067-669c7a80-6b78-11ea-8ef2-7bba3f7f4f1c.png)
 ![contact-footer-Christopher-Ellis-Portfolio](https://user-images.githubusercontent.com/54122844/72943280-efdb3080-3d32-11ea-926f-79e1fe593927.png)
 
 
